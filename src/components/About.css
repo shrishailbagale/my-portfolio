@@ -1,0 +1,62 @@
+/* About.css */
+
+.about {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-text {
+    flex-basis: 100%; /* Take full width in mobile view */
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .about h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    flex-basis: 100%; /* Take full width in mobile view */
+    margin-top: 20px; /* Add space between text and image in mobile view */
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    border-radius: 15%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (min-width: 768px) {
+    .about-content {
+      flex-direction: row;
+    }
+  
+    .about-image {
+      flex-basis: 50%;
+      margin-top: 0; /* Remove margin-top for larger screens */
+      order: 0; /* Change the order for larger screens */
+    }
+  
+    .about-text {
+      flex-basis: 50%;
+      order: 2; /* Change the order for larger screens */
+    }
+  }
+  

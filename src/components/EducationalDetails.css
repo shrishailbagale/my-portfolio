@@ -1,0 +1,65 @@
+/* EducationalDetails.css */
+
+.educational-details {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .educational-details h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .education-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .education-card {
+    background-color: #f8fafd; /* Light blue */
+    border: 1px solid #bdd8e4; /* Lighter blue border */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    opacity: 0; /* Initially invisible for animation */
+    transform: translateY(20px); /* Initial position for animation */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+  }
+  
+  .education-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    background-color: #e6f7ff;
+  }
+  
+  .education-card h3 {
+    color: #007bff; /* Blue */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .education-card p {
+    color: #444;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+  
+  /* Fade-in Animation */
+  .education-card.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .education-card {
+      width: 100%;
+    }
+  }
+  

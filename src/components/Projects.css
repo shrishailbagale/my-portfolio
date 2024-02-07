@@ -1,0 +1,70 @@
+/* Projects.css */
+
+.projects {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .projects p {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-title {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    color: #555;
+    font-size: 1.2em;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .projects {
+      padding: 30px;
+    }
+  
+    .project-card {
+      flex-basis: calc(50% - 20px);
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .project-card {
+      flex-basis: calc(100% - 20px);
+    }
+  }
+  
