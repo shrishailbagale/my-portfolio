@@ -1,13 +1,20 @@
-// src/components/Navigation.js
-
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 const Navigation = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <nav>
-      <ul>
+      <div className="menu-toggle" onClick={toggleMenu}>
+        <span>&#9776;</span> Menu
+      </div>
+      <ul className={menuOpen ? 'active' : ''}>
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/projects">Projects</Link></li>
@@ -17,6 +24,6 @@ const Navigation = () => {
       </ul>
     </nav>
   );
-};  
+};
 
 export default Navigation;

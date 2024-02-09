@@ -21,19 +21,19 @@ const Certification = () => {
 
       <div className="certification-cards">
         <div className="certification-card">
-          <img src="/certification-images/complete_java_cource.jpg" alt="Complete Java Certification Cource" />
+          <img src={process.env.PUBLIC_URL + '/certification-images/complete_java_cource.jpg'} alt="Complete Java Certification Cource" />
           <h3 href="https://udemy-certificate.s3.amazonaws.com/image/UC-2c93b2e9-058b-4d57-ad1a-08010cf5b722.jpg">Complete Java Certification Cource</h3>
           <p>Issued by: Udemy</p>
         </div>
 
         <div className="certification-card">
-          <img src="/certification-images/Full_stack_java_development.jpg" alt="Full Stack Java Development" />
-          <h3 href="https://simpli.app.link/nbS2dmzCZGb">Full Stack Java Development</h3>
+          <img src={process.env.PUBLIC_URL + '/certification-images/Full_stack_java_development.jpg'} alt="Full Stack Java Development" />
+          <h3>Full Stack Java Development</h3>
           <p>Issued by: SimpliLearn</p>
         </div>
 
         <div className="certification-card">
-          <img src="/certification-images/Java_certificate.jpg" alt="Java Programming" />
+          <img src={process.env.PUBLIC_URL + '/certification-images/Java_certificate.jpg'} alt="Java Programming" />
           <h3>Java Programming</h3>
           <p>Issued by: Great Learning</p>
         </div>

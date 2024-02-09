@@ -38,7 +38,7 @@
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
-  
+   
   .project-title {
     color: #333;
     font-size: 1.5em;
@@ -48,7 +48,29 @@
   .project-description {
     color: #555;
     font-size: 1.2em;
-  }
+  } 
+
+  /* Projects.css */
+
+.project-image {
+  width: 100%;
+  max-height: 200px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 8px 8px 0 0; /* Add border radius to the top corners */
+}
+
+.project-card {
+  border: 1px solid #ddd; /* Add a border to separate project cards */
+  border-radius: 8px;
+  overflow: hidden; /* Hide overflow from images */
+  margin-bottom: 20px;
+}
+
+.project-title,
+.project-description {
+  padding: 10px;
+}
+
   
   /* Responsive Styles */
   @media only screen and (max-width: 768px) {

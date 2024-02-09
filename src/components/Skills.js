@@ -22,17 +22,17 @@ const Skills = () => {
       <div className="skill-container">
         <div className="skill">
           <h3>Frontend Development</h3>
-          <p>React, Vue, HTML, CSS, JavaScript</p>
+          <p>React, HTML5, CSS3, JavaScript</p>
         </div>
 
         <div className="skill">
           <h3>Backend Development</h3>
-          <p>Java, PHP, Node.js, Git, Django, Flask</p>
+          <p>Java, PHP, Git, Python, C#, etc</p>
         </div>
 
         <div className="skill">
           <h3>Database</h3>
-          <p>MongoDB, MySQL, PostgreSQL</p>
+          <p>SQL, MongoDB, MySQL, PostgreSQL</p>
         </div>
 
         {/* Add more skills as needed */}

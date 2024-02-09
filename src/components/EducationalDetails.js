@@ -18,7 +18,7 @@ const EducationalDetails = () => {
 
   return (
     <section className="educational-details">
-      <h2>Education Details</h2>
+      <h2>My Education</h2>
       <p>Explore my academic journey and qualifications.</p>
 
       <div className="education-cards">
@@ -34,7 +34,7 @@ const EducationalDetails = () => {
         <p>Year of Graduation: 2021</p>
       </div>
 
-        <div className="education-card">
+        {/* <div className="education-card">
           <h3>Lokseva Junior College, Mandrup</h3>
           <p>HSC (12th)</p>
           <p>Year of Completed: 2018</p>
@@ -44,7 +44,7 @@ const EducationalDetails = () => {
           <h3>Shree Panchakshari High School, Malkavathe</h3>
           <p>SSC (10th) </p>
           <p>Year of Completed: 2016</p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

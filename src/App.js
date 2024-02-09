@@ -17,14 +17,15 @@ const App = () => {
   return (      
     <Router>
       <div>
-        <Header />
-        <Navigation />
-        <Projects />
-        <Certification />     
-        <Skills />               
-        <EducationalDetails />
-        <Contact />
-        <About />   
+        <Header/>        
+        <Navigation/>
+        <About/>
+        <Certification/>
+        <Projects/>
+        <Skills/>
+        <EducationalDetails/>          
+        <Contact/>    
+
         <Footer/>       
       </div>
     </Router>
