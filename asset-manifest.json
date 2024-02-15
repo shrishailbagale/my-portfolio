@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.34f0b262.css",
-    "main.js": "/my-portfolio/static/js/main.6d62d775.js",
+    "main.css": "/my-portfolio/static/css/main.48609d2f.css",
+    "main.js": "/my-portfolio/static/js/main.1fc2dd1e.js",
     "static/js/592.6647c214.chunk.js": "/my-portfolio/static/js/592.6647c214.chunk.js",
+    "static/media/allana_college.jpg": "/my-portfolio/static/media/allana_college.46f7272a0dcd11aeeea5.jpg",
+    "static/media/DHB_Soni_college.jpg": "/my-portfolio/static/media/DHB_Soni_college.e82530bf4c7728e531dd.jpg",
+    "static/media/profile-image.jpg": "/my-portfolio/static/media/profile-image.ed0e3ecb170ad1163773.jpg",
+    "static/media/php-logo.png": "/my-portfolio/static/media/php-logo.3edda6705ae55fdf4027.png",
+    "static/media/react-logo.png": "/my-portfolio/static/media/react-logo.2542aacc0c75d8236c34.png",
+    "static/media/java-logo.png": "/my-portfolio/static/media/java-logo.27c5b62943a8f723add4.png",
+    "static/media/firebase-logo.png": "/my-portfolio/static/media/firebase-logo.236771f245b20db99583.png",
+    "static/media/education-icon.png": "/my-portfolio/static/media/education-icon.86145268f9592c4c70f2.png",
+    "static/media/about-icon.png": "/my-portfolio/static/media/about-icon.d1927939f6b35af48fb4.png",
+    "static/media/github-logo.png": "/my-portfolio/static/media/github-logo.e98f85dfe9714abe4697.png",
+    "static/media/skills-icon.png": "/my-portfolio/static/media/skills-icon.b288034d9812eb13c12f.png",
     "index.html": "/my-portfolio/index.html",
-    "main.34f0b262.css.map": "/my-portfolio/static/css/main.34f0b262.css.map",
-    "main.6d62d775.js.map": "/my-portfolio/static/js/main.6d62d775.js.map",
+    "main.48609d2f.css.map": "/my-portfolio/static/css/main.48609d2f.css.map",
+    "main.1fc2dd1e.js.map": "/my-portfolio/static/js/main.1fc2dd1e.js.map",
     "592.6647c214.chunk.js.map": "/my-portfolio/static/js/592.6647c214.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34f0b262.css",
-    "static/js/main.6d62d775.js"
+    "static/css/main.48609d2f.css",
+    "static/js/main.1fc2dd1e.js"
   ]
 }
