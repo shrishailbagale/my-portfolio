@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.80a15f2f.css",
-    "main.js": "/my-portfolio/static/js/main.1452d7f8.js",
-    "static/js/592.6647c214.chunk.js": "/my-portfolio/static/js/592.6647c214.chunk.js",
+    "main.css": "/my-portfolio/static/css/main.01948901.css",
+    "main.js": "/my-portfolio/static/js/main.3b4dc462.js",
+    "static/js/592.0dcf3590.chunk.js": "/my-portfolio/static/js/592.0dcf3590.chunk.js",
     "static/media/allana_college.jpg": "/my-portfolio/static/media/allana_college.46f7272a0dcd11aeeea5.jpg",
     "static/media/DHB_Soni_college.jpg": "/my-portfolio/static/media/DHB_Soni_college.e82530bf4c7728e531dd.jpg",
     "static/media/profile-image.jpg": "/my-portfolio/static/media/profile-image.ed0e3ecb170ad1163773.jpg",
-    "static/media/php-logo.png": "/my-portfolio/static/media/php-logo.3edda6705ae55fdf4027.png",
-    "static/media/react-logo.png": "/my-portfolio/static/media/react-logo.2542aacc0c75d8236c34.png",
-    "static/media/java-logo.png": "/my-portfolio/static/media/java-logo.27c5b62943a8f723add4.png",
-    "static/media/firebase-logo.png": "/my-portfolio/static/media/firebase-logo.236771f245b20db99583.png",
+    "static/media/php.png": "/my-portfolio/static/media/php.3edda6705ae55fdf4027.png",
+    "static/media/react.png": "/my-portfolio/static/media/react.2542aacc0c75d8236c34.png",
+    "static/media/c++.png": "/my-portfolio/static/media/c++.6fc599843891a38c76a6.png",
+    "static/media/java.png": "/my-portfolio/static/media/java.27c5b62943a8f723add4.png",
+    "static/media/firebase.png": "/my-portfolio/static/media/firebase.236771f245b20db99583.png",
     "static/media/education-icon.png": "/my-portfolio/static/media/education-icon.86145268f9592c4c70f2.png",
     "static/media/about-icon.png": "/my-portfolio/static/media/about-icon.d1927939f6b35af48fb4.png",
-    "static/media/github-logo.png": "/my-portfolio/static/media/github-logo.e98f85dfe9714abe4697.png",
+    "static/media/github.png": "/my-portfolio/static/media/github.e98f85dfe9714abe4697.png",
     "static/media/skills-icon.png": "/my-portfolio/static/media/skills-icon.b288034d9812eb13c12f.png",
     "index.html": "/my-portfolio/index.html",
-    "main.80a15f2f.css.map": "/my-portfolio/static/css/main.80a15f2f.css.map",
-    "main.1452d7f8.js.map": "/my-portfolio/static/js/main.1452d7f8.js.map",
-    "592.6647c214.chunk.js.map": "/my-portfolio/static/js/592.6647c214.chunk.js.map"
+    "main.01948901.css.map": "/my-portfolio/static/css/main.01948901.css.map",
+    "main.3b4dc462.js.map": "/my-portfolio/static/js/main.3b4dc462.js.map",
+    "592.0dcf3590.chunk.js.map": "/my-portfolio/static/js/592.0dcf3590.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80a15f2f.css",
-    "static/js/main.1452d7f8.js"
+    "static/css/main.01948901.css",
+    "static/js/main.3b4dc462.js"
   ]
 }
