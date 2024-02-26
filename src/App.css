@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.heading span {
+  color: #bc4f00;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  
+}
+
+.icon {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.heading {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 0;  
+}
+
+.description{
+  color: #555;
+  font-size: 1.2em;
+  text-align: center;  
+  margin: 10px;
+}
+
+html{
+  scroll-snap-align: y mandatory;
+}
+
+section{
+  scroll-snap-align: start;
+}
+

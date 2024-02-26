@@ -3,6 +3,7 @@
 nav {
   background-color: #444;
   padding: 10px;
+  opacity: 1000;
 }
 
 .menu-toggle {

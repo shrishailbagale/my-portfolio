@@ -1,31 +1,31 @@
 // App.js
 
 import React from 'react';
-import { Switch } from 'react-router-dom'
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
+import { BrowserRouter as Router} from 'react-router-dom';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import About from './components/About';
-import EducationalDetails from './components/EducationalDetails';
 import Certification from './components/Certification';
 import Skills from './components/Skills';
+import Hero from './components/Hero';
+import Education from './components/Education';
+import Navigation from './components/Navigation';
 
+import './App.css';
 const App = () => {
   return (      
     <Router>
-      <div>
-        <Header/>        
-        <Navigation/>
-        <About/>
+      <div className="html">
+        <Navigation/>  
+        <Hero/>    
+        <About/>         
+        <Skills/>
         <Certification/>
         <Projects/>
-        <Skills/>
-        <EducationalDetails/>          
-        <Contact/>    
-
+        
+        <Education/>
+        <Contact/>   
         <Footer/>       
       </div>
     </Router>

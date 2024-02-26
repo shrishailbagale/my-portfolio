@@ -1,42 +1,62 @@
 // Skills.js
-
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Skills.css';
+// Import the image using require
+import htmlLogo from '../logos/html.png';
+import cssLogo from '../logos/css.png';
+import javascriptLogo from '../logos/javascript.png';
+import reactLogo from '../logos/react.png';
+import androidLogo from '../logos/css.png';
+import firebaseLogo from '../logos/firebase.png';
+import javaLogo from '../logos/java.png';
+import csharpLogo from '../logos/c++.png';
+import mysqlLogo from '../logos/mysql.png';
+import phpLogo from '../logos/php.png';
+import gitLogo from '../logos/git.png';
+import githubLogo from '../logos/github.png';
+import bootstrapLogo from '../logos/bootstrap.png';
+import skillsIcon from '../images/skills-icon.png';
+
+  
+  // Add more skills as needed
 
 const Skills = () => {
-  useEffect(() => {
-    // Add the 'animate' class to each skill after a delay
-    const skills = document.querySelectorAll('.skill');
-    skills.forEach((skill, index) => {
-      setTimeout(() => {
-        skill.classList.add('animate');
-      }, index * 200); // Adjust the delay as needed
-    });
-  }, []);
+  const skills = [
+    { name: 'HTML', logo: htmlLogo },
+    { name: 'CSS', logo: cssLogo },
+    { name: 'JavaScript', logo: javascriptLogo },
+    { name: 'React', logo: reactLogo },
+    { name: 'Android', logo: androidLogo },
+    { name: 'Firebase', logo: firebaseLogo },
+    { name: 'Java', logo: javaLogo },
+    { name: 'C#', logo: csharpLogo },
+    { name: 'MySQL', logo: mysqlLogo },
+    { name: 'PHP', logo: phpLogo },
+    { name: 'Git', logo: gitLogo },
+    { name: 'GitHub', logo: githubLogo },
+    { name: 'Bootstrap', logo: bootstrapLogo },
+   
+    
+    // Add more skills as needed
+  ];
 
   return (
-    <section className="skills">
-      <h2>Skills</h2>
-      <p>Explore my technical skills and expertise.</p>
 
-      <div className="skill-container">
-        <div className="skill">
-          <h3>Frontend Development</h3>
-          <p>React, HTML5, CSS3, JavaScript</p>
-        </div>
-
-        <div className="skill">
-          <h3>Backend Development</h3>
-          <p>Java, PHP, Git, Python, C#, etc</p>
-        </div>
-
-        <div className="skill">
-          <h3>Database</h3>
-          <p>SQL, MongoDB, MySQL, PostgreSQL</p>
-        </div>
-
-        {/* Add more skills as needed */}
+    <section className="skills-container">      
+      <div className="heading-container">
+        <img src={skillsIcon} alt="Icon" className="icon" />
+        <h2 className="heading">Skills & <span>Abilities</span></h2>
       </div>
+      <p className="description">My skills and knowledges.</p>
+      <div className="skills-category">
+        {skills.map((skill, index) => (
+          <div key={index} className="skill-card">
+           {/* In your JSX */}
+            <img src={skill.logo} alt={`${skill.name} Logo`} />              
+            <p>{skill.name}</p>
+          </div>
+        ))}
+      </div>    
     </section>
   );
 };

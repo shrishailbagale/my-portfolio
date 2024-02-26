@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import './Certification.css';
+import certificateIcon from '../images/certificate-icon.png';
 
 const Certification = () => {
   useEffect(() => {
@@ -16,7 +17,10 @@ const Certification = () => {
 
   return (
     <section className="certification">
-      <h2>Certifications</h2>
+      <div className="heading-container">
+        <img src={certificateIcon} alt="Icon" className="icon" />      
+        <h2 className="heading">My <span>Certifications</span></h2>
+      </div>
       <p className="description">Explore my certifications and achievements.</p>
 
       <div className="certification-cards">

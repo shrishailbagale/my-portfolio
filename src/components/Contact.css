@@ -2,24 +2,13 @@
 
 .contact {
     background-color: #f9f9f9;
-    padding: 50px;
-    text-align: center;
+    padding: 40px;    
+    align-items: center;
+    
   }
-  
-  .contact h2 {
-    color: #333;
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-  
-  .contact p {
-    color: #555;
-    font-size: 1.2em;
-    margin-bottom: 40px;
-  }
-  
+    
   form {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -27,8 +16,8 @@
   }
   
   label {
-    margin: 15px 0;
-    color: #333;
+    margin: 10px;
+    color: #fff;
     font-weight: bold;
     float: left;
     font-size: 1.2em;
@@ -37,9 +26,12 @@
   input,
   textarea {
     width: 100%;
-    padding: 15px;
-    margin-bottom: 25px;
-    border: 1px solid #ccc;
+    padding: 15px;    
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: #eae4e4;
+    margin-right: 20px;    
+    border: 1px solid #333;
     border-radius: 5px;
     transition: border-color 0.3s ease;
   }
@@ -48,21 +40,32 @@
   textarea:focus {
     outline: none;
     border-color: #007bff; /* Change border color on focus */
+    
   }
   
   button {
-    background-color: #007bff;
+    background-color: #444;
     color: #fff;
-    padding: 15px 25px;
-    font-size: 1.2em;
+    padding: 10px 25px;
+    font-size: 1em;
     cursor: pointer;
-    border: none;
+    border: 1px solid #fff;
     border-radius: 5px;
+    margin-top: 20px;
     transition: background-color 0.3s ease;
   }
   
   button:hover {
     background-color: #0056b3;
+  }
+
+  .contact-form{    
+    padding: 40px;
+    margin: 0 25% 0 25%;     
+    border-radius: 20px;     
+    background:
+    linear-gradient(45deg, #ff0000, #333),
+    linear-gradient(135deg, #00ff00, #0000ff);
   }
   
   /* Animation */
@@ -78,4 +81,20 @@
   .fade-in {
     animation: fadeIn 1s ease;
   }
+
+  
+@media screen and (max-width: 576px) {
+
+  .contact-form{    
+    padding: 40px;
+    margin: 0;     
+    border-radius: 20px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 15px;
+   }
+}
   
