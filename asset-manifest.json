@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.01948901.css",
-    "main.js": "/my-portfolio/static/js/main.3b4dc462.js",
+    "main.css": "/my-portfolio/static/css/main.f79c0aaf.css",
+    "main.js": "/my-portfolio/static/js/main.e252c7ef.js",
     "static/js/592.0dcf3590.chunk.js": "/my-portfolio/static/js/592.0dcf3590.chunk.js",
     "static/media/allana_college.jpg": "/my-portfolio/static/media/allana_college.46f7272a0dcd11aeeea5.jpg",
+    "static/media/background1.jpg": "/my-portfolio/static/media/background1.cf861fcc2eccbfacda25.jpg",
     "static/media/DHB_Soni_college.jpg": "/my-portfolio/static/media/DHB_Soni_college.e82530bf4c7728e531dd.jpg",
     "static/media/profile-image.jpg": "/my-portfolio/static/media/profile-image.ed0e3ecb170ad1163773.jpg",
     "static/media/php.png": "/my-portfolio/static/media/php.3edda6705ae55fdf4027.png",
@@ -12,16 +13,15 @@
     "static/media/java.png": "/my-portfolio/static/media/java.27c5b62943a8f723add4.png",
     "static/media/firebase.png": "/my-portfolio/static/media/firebase.236771f245b20db99583.png",
     "static/media/education-icon.png": "/my-portfolio/static/media/education-icon.86145268f9592c4c70f2.png",
-    "static/media/about-icon.png": "/my-portfolio/static/media/about-icon.d1927939f6b35af48fb4.png",
     "static/media/github.png": "/my-portfolio/static/media/github.e98f85dfe9714abe4697.png",
     "static/media/skills-icon.png": "/my-portfolio/static/media/skills-icon.b288034d9812eb13c12f.png",
     "index.html": "/my-portfolio/index.html",
-    "main.01948901.css.map": "/my-portfolio/static/css/main.01948901.css.map",
-    "main.3b4dc462.js.map": "/my-portfolio/static/js/main.3b4dc462.js.map",
+    "main.f79c0aaf.css.map": "/my-portfolio/static/css/main.f79c0aaf.css.map",
+    "main.e252c7ef.js.map": "/my-portfolio/static/js/main.e252c7ef.js.map",
     "592.0dcf3590.chunk.js.map": "/my-portfolio/static/js/592.0dcf3590.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01948901.css",
-    "static/js/main.3b4dc462.js"
+    "static/css/main.f79c0aaf.css",
+    "static/js/main.e252c7ef.js"
   ]
 }
