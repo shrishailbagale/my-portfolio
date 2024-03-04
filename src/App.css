@@ -76,3 +76,46 @@ section{
   scroll-snap-align: start;
 }
 
+
+/* transform animation top to bottom */
+@keyframes slideTopToBottom {
+  0% {
+      transform: translateY(-100%);
+  }
+  100% {
+      transform: translateY(0%);
+  }
+}
+
+
+/* transform animation left to right */
+@keyframes slideLeftToRight {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+
+
+/* transform animation Right to left */
+@keyframes slideRightToLeft {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+
+
+/* transform animation Bottom to Top */
+@keyframes slideBottomToTop {
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateY(0%);
+  }
+}

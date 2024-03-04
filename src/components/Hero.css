@@ -46,6 +46,7 @@
     position: relative; /* Ensure the z-index works properly */
     z-index: 1;     
   }
+
 /* 
   .hero-content h1 span {
     color: #bc4f00;
@@ -79,7 +80,7 @@
     width: 100%;
     max-width: 200px;
     border-radius: 50%;
-    transform: translateZ(50px);
+    animation: slideTopToBottom 1.4s ease-in-out;
     transition: transform 0.5s ease-in-out; /* Add transition for the scale effect */
   }
   
@@ -89,7 +90,8 @@
   font-size: 3em;
   padding: 0;
   margin-bottom: 10px;
-  color: #333; /* Adjust the text color as needed */
+  color: #fff; /* Adjust the text color as needed */
+  text-shadow: #333 ;
   transform: translateZ(50px); /* Adjust the translation along the Z-axis as needed */
   transition: transform 0.5s ease-in-out;
   
@@ -108,19 +110,19 @@
   }
   
 .cta-button {
-    display: inline-block;
+  display: inline-block;
   margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #3498db;
+  padding: 15px 26px;
+  background-color: #ff7b00;
   color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transform: translateZ(20px);
-  transition: transform 0.5s ease-in-out;
+  box-shadow: #e74c3c;
+  text-decoration: none;  
+  animation: slideBottomToTop 1s ease-in-out;  
+  
   }
   
   .cta-button:hover {
-    background-color: #2980b9;
+    background-color: #333;
     transform: scale(1.05); /* Add a scale effect on hover */
   }
   
@@ -149,6 +151,19 @@
     width: 30px; /* Adjust the size of your social media logos */
     height: 30px;
     background-color: #fff;
-    border-radius: 10%;
+    border-radius: 100%;
+    border: 1px solid #fff;
   }
+
+  .github{
+    animation: slideLeftToRight 0.6s ease-in-out; 
+  }
+  .twitter{
+    animation: slideRightToLeft 0.6s ease-in-out; 
+  }
+  .linkedin{
+    animation: slideTopToBottom 0.6s ease-in-out;
+  }
+
+
   
