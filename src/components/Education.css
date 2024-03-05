@@ -25,9 +25,18 @@
     margin-top: 1.5rem;
     overflow: hidden;
     transition: 0.3s;
+    animation: slideTopToBottom 1.2s ease-in-out;
     background: linear-gradient(to bottom right, #ffffff, #e5ecfb); /* Adjust the gradient colors */
   }
+
+  .education .box-container .box-1{
+    animation: slideLeftToRight 1.2s ease-in-out;
+  }
   
+  .education .box-container .box-2{
+    animation: slideRightToLeft 1.2s ease-in-out;
+  }
+
   .education .box-container .box:hover {
     transform: scale(1.03);
     box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
@@ -51,7 +60,9 @@
     flex-direction: column;    
     flex-wrap: wrap;
     flex: 1 1 70rem;
+    animation: slideRightToLeft 1.5s ease-in-out;
   }
+
   
   .education .box-container .box .content h3 {
     font-size: 1.5rem;
