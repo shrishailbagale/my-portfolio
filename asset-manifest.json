@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.54889761.css",
-    "main.js": "/my-portfolio/static/js/main.463f5f0d.js",
+    "main.css": "/my-portfolio/static/css/main.5dc425b6.css",
+    "main.js": "/my-portfolio/static/js/main.41c8b74a.js",
     "static/js/592.0dcf3590.chunk.js": "/my-portfolio/static/js/592.0dcf3590.chunk.js",
+    "static/media/bg-1.jpg": "/my-portfolio/static/media/bg-1.aa017624004da380b33e.jpg",
+    "static/media/certi-bg.jpg": "/my-portfolio/static/media/certi-bg.13a99be39a0a1c7f288c.jpg",
     "static/media/allana_college.jpg": "/my-portfolio/static/media/allana_college.46f7272a0dcd11aeeea5.jpg",
+    "static/media/bg2.png": "/my-portfolio/static/media/bg2.19e41c73b83988549ca1.png",
+    "static/media/my-photo.png": "/my-portfolio/static/media/my-photo.dd72ed8c290717dd0d85.png",
     "static/media/DHB_Soni_college.jpg": "/my-portfolio/static/media/DHB_Soni_college.e82530bf4c7728e531dd.jpg",
     "static/media/profile-image.jpg": "/my-portfolio/static/media/profile-image.ed0e3ecb170ad1163773.jpg",
     "static/media/php.png": "/my-portfolio/static/media/php.3edda6705ae55fdf4027.png",
@@ -15,12 +19,12 @@
     "static/media/github.png": "/my-portfolio/static/media/github.e98f85dfe9714abe4697.png",
     "static/media/skills-icon.png": "/my-portfolio/static/media/skills-icon.b288034d9812eb13c12f.png",
     "index.html": "/my-portfolio/index.html",
-    "main.54889761.css.map": "/my-portfolio/static/css/main.54889761.css.map",
-    "main.463f5f0d.js.map": "/my-portfolio/static/js/main.463f5f0d.js.map",
+    "main.5dc425b6.css.map": "/my-portfolio/static/css/main.5dc425b6.css.map",
+    "main.41c8b74a.js.map": "/my-portfolio/static/js/main.41c8b74a.js.map",
     "592.0dcf3590.chunk.js.map": "/my-portfolio/static/js/592.0dcf3590.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54889761.css",
-    "static/js/main.463f5f0d.js"
+    "static/css/main.5dc425b6.css",
+    "static/js/main.41c8b74a.js"
   ]
 }
