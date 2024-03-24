@@ -16,7 +16,7 @@ const Education = () => {
       <p className="description">Education is not the learning of facts, but the training of the mind to think.</p>
 
       <div className="box-container">
-        <div className="box">
+        <div className="box box-1">
           <div className="image">
             <img src={clgAllana} alt="" />
           </div>
@@ -27,7 +27,7 @@ const Education = () => {
           </div>
         </div>
 
-        <div className="box">
+        <div className="box box-2">
           <div className="image">
             <img draggable="true" src={clgSoni} alt="" />
           </div>

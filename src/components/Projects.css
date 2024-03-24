@@ -9,6 +9,7 @@
 .heading-container {
   display: flex;
   align-items: center;
+  animation: slideTopToBottom 1.5s ease-in-out;
 }
 
 .icon {

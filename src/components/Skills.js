@@ -6,7 +6,7 @@ import htmlLogo from '../logos/html.png';
 import cssLogo from '../logos/css.png';
 import javascriptLogo from '../logos/javascript.png';
 import reactLogo from '../logos/react.png';
-import androidLogo from '../logos/css.png';
+import androidLogo from '../logos/android.png';
 import firebaseLogo from '../logos/firebase.png';
 import javaLogo from '../logos/java.png';
 import csharpLogo from '../logos/c++.png';

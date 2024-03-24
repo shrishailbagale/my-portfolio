@@ -33,20 +33,20 @@ const Hero = () => {
   
       <div className="hero-content">
         <img src={profileImage} alt="Shrishail Bagale" className="profile-image" />
-        <h1>Shrishail <span>Bagale</span></h1>
+        <h1 className="name">Shrishail <span>Bagale</span></h1>
         <p>I'm <span className="typing-text"></span></p>
 
         {/* Add social media logos with links */}
         
         <div className="social-icons">
-        <a href="https://github.com/shrishailbagale" target="_blank" rel="noopener noreferrer">
+        <a className="github" href="https://github.com/shrishailbagale" target="_blank" rel="noopener noreferrer">
             <img src={icGithub} alt="GitHub" />
         </a>
         {/* Add similar blocks for other social media logos */}
-        <a href="https://linkedin.com/in/shrishailbagale" target="_blank" rel="noopener noreferrer">
+        <a className="linkedin" href="https://linkedin.com/in/shrishailbagale" target="_blank" rel="noopener noreferrer">
             <img src={icLinkedin} alt="LinkedIn" />
         </a>
-        <a href="https://twitter.com/shrishailbagale" target="_blank" rel="noopener noreferrer">
+        <a className="twitter" href="https://twitter.com/shrishailbagale" target="_blank" rel="noopener noreferrer">
             <img src={icInstagram} alt="Instagram" />
         </a>
         {/* Add more social media icons as needed */}
