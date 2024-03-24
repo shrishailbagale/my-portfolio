@@ -7,6 +7,7 @@ import profileImage from '../images/profile-image.jpg'; // Adjust the path to yo
 import icGithub from '../logos/github.png';
 import icLinkedin from '../logos/linkedin.png';
 import icInstagram from '../logos/instagram.png';
+import './Navigation.js'; // Export your navigation 
 
 const Hero = () => {
 
@@ -29,9 +30,10 @@ const Hero = () => {
     
   return (
     <section className="hero-container">
+  
       <div className="hero-content">
         <img src={profileImage} alt="Shrishail Bagale" className="profile-image" />
-        <h1 class>Shrishail <span>Bagale</span></h1>
+        <h1>Shrishail <span>Bagale</span></h1>
         <p>I'm <span className="typing-text"></span></p>
 
         {/* Add social media logos with links */}

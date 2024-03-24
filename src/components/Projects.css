@@ -28,7 +28,8 @@
   width: calc(33.333% - 20px); /* Adjust the card width based on your preference */
   margin-bottom: 20px; /* Add margin at the bottom for spacing between rows */
   box-sizing: border-box;
-  padding: 10px;
+  padding: 10px;  
+  background-color: #94a104;
   border: 1px solid #ddd; /* Add a border for a visual separation between cards */
 }
 
@@ -43,8 +44,9 @@
 }
  
 .project-title {
-  color: #333;
+  color: #fff;
   font-size: 1.5em;
+  text-shadow: #000 1px 1px;
   margin-bottom: 10px;
 }
 .project-details {
@@ -53,8 +55,8 @@
 }
 
 .project-description {
-  color: #555;
-  font-size: 1.2em;
+  color: #efecec;
+  font-size: 1em;
 } 
 
 

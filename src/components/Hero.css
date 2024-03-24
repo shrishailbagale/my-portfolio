@@ -3,9 +3,10 @@
 .hero-container {
     background-size: cover;
     background-position: center; 
-    background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #3498db, #03d100 );
-    background-size: 400% 400%;
-    animation: gradientAnimation 6s infinite;   
+    background-image: url('../images/bg-1.jpg');
+    /* background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #3498db, #03d100 ); */
+    /* background-size: 400% 400%;
+    animation: gradientAnimation 6s infinite;    */
     height: 90vh;
     display: flex;
     flex-direction: column; /* Stack children vertically */
@@ -84,14 +85,16 @@
   }
   
   h1 {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  font-size: 3em;
-  padding: 0;
-  margin-bottom: 10px;
-  color: #333; /* Adjust the text color as needed */
-  transform: translateZ(50px); /* Adjust the translation along the Z-axis as needed */
-  transition: transform 0.5s ease-in-out;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    font-size: 4.5em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    color: #fff; /* Adjust the text color as needed */
+    transform: translateZ(50px); /* Adjust the translation along the Z-axis as needed */
+    transition: transform 0.5s ease-in-out;
   
 }
 
