@@ -1,7 +1,7 @@
 /* Projects.css */
 
 .projects {
-  background-color: #f9f9f9;
+  background-color: #3333;
   padding: 50px;
   text-align: center;
 }
@@ -30,8 +30,7 @@
   margin-bottom: 20px; /* Add margin at the bottom for spacing between rows */
   box-sizing: border-box;
   padding: 10px;  
-  background-color: #94a104;
-  border: 1px solid #ddd; /* Add a border for a visual separation between cards */
+  background-color: #f7f7f7;
 }
 
 .project-image {
@@ -45,7 +44,7 @@
 }
  
 .project-title {
-  color: #fff;
+  color: #444;
   font-size: 1.5em;
   text-shadow: #000 1px 1px;
   margin-bottom: 10px;
@@ -56,7 +55,7 @@
 }
 
 .project-description {
-  color: #efecec;
+  color: #333;
   font-size: 1em;
 } 
 

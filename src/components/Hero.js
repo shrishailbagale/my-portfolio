@@ -54,9 +54,9 @@ const Hero = () => {
 
        
         {/* Add a call-to-action button or link if desired */}
-        <a href="#your-section-id" className="cta-button">
+        {/* <a href="#your-section-id" className="cta-button">
           Explore More
-        </a>
+        </a> */}
       </div>
     </section>
   );

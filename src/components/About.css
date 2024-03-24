@@ -1,7 +1,11 @@
 /* About.css */
 
 .about {
-  background-color: #efefef;
+  min-height: 90vh;
+  background-color: #dadcdd;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
   padding: 40px;
   text-align: center;
 }
@@ -26,12 +30,11 @@ align-items: left;
 }
 
 .about p {
-  color: #555;
-  font-size: 1.1em;
+  color: #111;
+  font-size: 1.5em;
   margin-bottom: 10px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-style: italic;
   line-height: 1.5;
 }
 
@@ -41,15 +44,13 @@ align-items: left;
   display: none; /* Hide the image in the center of the screen */ 
 }
 
-
 .resume-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 30px 10px 20px;
   margin-top: 10px;
-  background-color: #3498db;
+  background-color: #062b43;
   color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+  text-decoration: none;  
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
@@ -80,8 +81,8 @@ to {left: 200px;}
   }
 
   .about-image img {
-    max-width: 40%;    
-    border-radius: 15%;
+    width: 30%;    
+    border-radius: 10%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     animation: mymove 5s infinite;    
   }

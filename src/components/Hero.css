@@ -3,7 +3,7 @@
 .hero-container {
     background-size: cover;
     background-position: center; 
-    background-image: url('../images/bg-1.jpg');
+    background-image: url('../background-images/bg-1.jpg');
     /* background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #3498db, #03d100 ); */
     /* background-size: 400% 400%;
     animation: gradientAnimation 6s infinite;    */
@@ -88,8 +88,9 @@
     font-family: "David Libre", serif;
     font-weight: 700;
     font-style: normal;   
-    font-size: 3em;
+    font-size: 4.3em;
     padding: 0;
+    margin: 0;
     margin-bottom: 10px;
     color: #fff; /* Adjust the text color as needed */
     transform: translateZ(50px); /* Adjust the translation along the Z-axis as needed */
@@ -111,18 +112,18 @@
   
 .cta-button {
     display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transform: translateZ(20px);
-  transition: transform 0.5s ease-in-out;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: #845e16;
+    color: #fff;
+    text-decoration: none;  
+    transform: translateZ(20px);
+    transition: transform 0.5s ease-in-out;
   }
   
   .cta-button:hover {
-    background-color: #2980b9;
+    color: #000;
+    background-color: #f7f7f7;
     transform: scale(1.05); /* Add a scale effect on hover */
   }
   
@@ -151,6 +152,14 @@
     width: 30px; /* Adjust the size of your social media logos */
     height: 30px;
     background-color: #fff;
-    border-radius: 10%;
+    border-radius: 60%;
   }
+
+  @media only screen and (max-width: 768px) {
+    h1{
+      font-size: 3.6rem;
+    }
+  }
+
+
   

@@ -1,9 +1,12 @@
 /* Contact.css */
 
 .contact {
-    background-color: #f9f9f9;
-    padding: 40px;    
-    align-items: center;
+  background-color: #444;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;    
+  align-items: center;  
     
   }
     
@@ -63,9 +66,8 @@
     padding: 40px;
     margin: 0 25% 0 25%;     
     border-radius: 20px;     
-    background:
-    linear-gradient(45deg, #ff0000, #333),
-    linear-gradient(135deg, #00ff00, #0000ff);
+    background: #333;
+    
   }
   
   /* Animation */

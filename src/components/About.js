@@ -3,6 +3,7 @@
 import React from 'react';
 import './About.css';
 import aboutIcon from '../images/about-icon.png';
+import aboutimage from '../images/my-photo.png';
 // import resumePdf from '../path-to-your-resume.pdf'; // Replace with the actual path to your resume PDF file
 
 const About = () => {
@@ -31,12 +32,12 @@ const About = () => {
           </p>
 
           {/* Resume download button */}
-          <a href="#" download="Shrishail_Resume.pdf" className="resume-button">
+          <a href="https://linkedin.com/in/shrishailbagale" className="resume-button">
             Download Resume
           </a>
         </div>
         <div className="about-image">
-          <img src={process.env.PUBLIC_URL + '/profile-image.jpg'} alt="Profile" />
+          <img src={aboutimage} alt="Profile" />
         </div>
       </div>
     </section>

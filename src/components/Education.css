@@ -1,7 +1,9 @@
 /* Educatio.css */
 
 .education {
-    background: #efefef;    
+    background-image: url('../background-images/bg2.png');  
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 40px;    
        
   }   

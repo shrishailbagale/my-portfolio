@@ -12,7 +12,7 @@ const Navigation = () => {
   return (
     <nav>
       <div className="menu-toggle" onClick={toggleMenu}>
-        <span>&#9776;</span> Menu
+        <span>&#9776;</span>
       </div>
       <ul className={menuOpen ? 'active' : ''}>
         <li><Link to="/home">Home</Link></li>

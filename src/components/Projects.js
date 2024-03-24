@@ -21,11 +21,11 @@ const Projects = () => {
       description: 'The Online Book Store project is a web application that enables users to browse, search, and purchase books online. It provides a convenient platform for both book enthusiasts and sellers, allowing users to explore a diverse range of books, make purchases, and manage their accounts seamlessly.',
       image: 'project-images/whatsapp-clone.jpg', // Replace with the actual image path
     },
-    {
-      title: 'Library Management System',
-      description: 'The Library Management System is a comprehensive software solution designed to efficiently manage the operations of a library. It provides a centralized platform for librarians to organize book collections, handle user transactions, and streamline library processes.',
-      image: '/library-management.jpg', // Replace with the actual image path
-    },
+    // {
+    //   title: 'Library Management System',
+    //   description: 'The Library Management System is a comprehensive software solution designed to efficiently manage the operations of a library. It provides a centralized platform for librarians to organize book collections, handle user transactions, and streamline library processes.',
+    //   image: '/library-management.jpg', // Replace with the actual image path
+    // },
     // Add more projects as needed
   ];
 
