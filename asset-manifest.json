@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5dc425b6.css",
-    "main.js": "/my-portfolio/static/js/main.41c8b74a.js",
+    "main.css": "/my-portfolio/static/css/main.3f8dc180.css",
+    "main.js": "/my-portfolio/static/js/main.64251c95.js",
     "static/js/592.0dcf3590.chunk.js": "/my-portfolio/static/js/592.0dcf3590.chunk.js",
     "static/media/bg-1.jpg": "/my-portfolio/static/media/bg-1.aa017624004da380b33e.jpg",
-    "static/media/certi-bg.jpg": "/my-portfolio/static/media/certi-bg.13a99be39a0a1c7f288c.jpg",
     "static/media/allana_college.jpg": "/my-portfolio/static/media/allana_college.46f7272a0dcd11aeeea5.jpg",
     "static/media/bg2.png": "/my-portfolio/static/media/bg2.19e41c73b83988549ca1.png",
     "static/media/my-photo.png": "/my-portfolio/static/media/my-photo.dd72ed8c290717dd0d85.png",
@@ -19,12 +18,12 @@
     "static/media/github.png": "/my-portfolio/static/media/github.e98f85dfe9714abe4697.png",
     "static/media/skills-icon.png": "/my-portfolio/static/media/skills-icon.b288034d9812eb13c12f.png",
     "index.html": "/my-portfolio/index.html",
-    "main.5dc425b6.css.map": "/my-portfolio/static/css/main.5dc425b6.css.map",
-    "main.41c8b74a.js.map": "/my-portfolio/static/js/main.41c8b74a.js.map",
+    "main.3f8dc180.css.map": "/my-portfolio/static/css/main.3f8dc180.css.map",
+    "main.64251c95.js.map": "/my-portfolio/static/js/main.64251c95.js.map",
     "592.0dcf3590.chunk.js.map": "/my-portfolio/static/js/592.0dcf3590.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dc425b6.css",
-    "static/js/main.41c8b74a.js"
+    "static/css/main.3f8dc180.css",
+    "static/js/main.64251c95.js"
   ]
 }
