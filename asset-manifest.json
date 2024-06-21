@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.4de7d94f.css",
-    "main.js": "/my-portfolio/static/js/main.51e67ca6.js",
+    "main.css": "/my-portfolio/static/css/main.ccde7154.css",
+    "main.js": "/my-portfolio/static/js/main.f5b142f5.js",
     "static/js/592.0dcf3590.chunk.js": "/my-portfolio/static/js/592.0dcf3590.chunk.js",
     "static/media/allana_college.jpg": "/my-portfolio/static/media/allana_college.46f7272a0dcd11aeeea5.jpg",
     "static/media/my-photo.png": "/my-portfolio/static/media/my-photo.dd72ed8c290717dd0d85.png",
@@ -16,12 +16,12 @@
     "static/media/github.png": "/my-portfolio/static/media/github.e98f85dfe9714abe4697.png",
     "static/media/skills-icon.png": "/my-portfolio/static/media/skills-icon.b288034d9812eb13c12f.png",
     "index.html": "/my-portfolio/index.html",
-    "main.4de7d94f.css.map": "/my-portfolio/static/css/main.4de7d94f.css.map",
-    "main.51e67ca6.js.map": "/my-portfolio/static/js/main.51e67ca6.js.map",
+    "main.ccde7154.css.map": "/my-portfolio/static/css/main.ccde7154.css.map",
+    "main.f5b142f5.js.map": "/my-portfolio/static/js/main.f5b142f5.js.map",
     "592.0dcf3590.chunk.js.map": "/my-portfolio/static/js/592.0dcf3590.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4de7d94f.css",
-    "static/js/main.51e67ca6.js"
+    "static/css/main.ccde7154.css",
+    "static/js/main.f5b142f5.js"
   ]
 }
