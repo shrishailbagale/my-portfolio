@@ -1,0 +1,165 @@
+/* Hero.css */
+
+.hero-container {
+
+  background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #3498db, #03d100);
+  background-size: 400% 400%;
+  animation: gradientAnimation 6s infinite;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  /* Stack children vertically */
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  /* Center horizontally */
+  overflow: hidden;
+  /* Ensure the animation doesn't overflow */
+}
+
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero-container::before {
+  content: '';
+  position: absolute;
+  top: 10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #3498db, #03d100);
+  background-size: 400% 400%;
+  animation: gradientAnimation 6s infinite;
+}
+
+
+.hero-content {
+  text-align: center;
+  color: #ffffff;
+  /* Adjust text color for better visibility on your background image */
+  position: relative;
+  /* Ensure the z-index works properly */
+  z-index: 1;
+}
+
+/* 
+  .hero-content h1 span {
+    color: #bc4f00;
+    font-weight: 800;   
+  } */
+
+.hero-content p {
+  font-size: 1.6em;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.hero-content .typing-text {
+  color: #222;
+  font-weight: 800;
+  text-shadow: -1px 1px 0 #fff,
+    1px 1px 0 #ffffff,
+    1px -1px 0 #fff,
+    -1px -1px 0 #fff;
+}
+
+.hero-content .content p span {
+  font-size: 1.5rem;
+  color: rgb(148, 8, 8);
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  transform: translateZ(50px);
+  transition: transform 0.5s ease-in-out;
+  /* Add transition for the scale effect */
+}
+
+h1 {
+  font-family: "David Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.3em;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #fff;
+  /* Adjust the text color as needed */
+  transform: translateZ(50px);
+  /* Adjust the translation along the Z-axis as needed */
+  transition: transform 0.5s ease-in-out;
+
+}
+
+p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.typing-text {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0 5px;
+  border-radius: 3px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  background-color: #845e16;
+  color: #fff;
+  text-decoration: none;
+  transform: translateZ(20px);
+  transition: transform 0.5s ease-in-out;
+}
+
+.cta-button:hover {
+  color: #000;
+  background-color: #f7f7f7;
+  transform: scale(1.05);
+  /* Add a scale effect on hover */
+}
+
+/* Add styles for the social media icons */
+.social-icons {
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 40px;
+  /* Adjust the size of the icons as needed */
+  height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 3.6rem;
+  }
+}

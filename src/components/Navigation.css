@@ -1,0 +1,137 @@
+/* Google Font Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 20px;
+  background: transparent;
+  transition: all 0.4s ease;
+  z-index: 1000;
+}
+
+.nav.sticky {
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-logo img {
+  width: 50px !important;
+  height: auto;
+  border-radius: 50%;
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 28px;
+  color: #ffffff;
+  transition: color 0.4s ease;
+}
+
+.nav.sticky .logo a {
+  color: #333333;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.nav.sticky .menu-icon {
+  color: #333333;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.nav.sticky .nav-links a {
+  color: #f18048;
+}
+
+.nav-links a:hover {
+  color: #f18048;
+  border-bottom: 2px solid #f18048;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background: #ffffff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .nav-links.open {
+    max-height: 400px; /* Adjust as needed */
+    margin-top: 20px;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+    text-align: center;   
+  }
+
+  .nav-links a {
+    color: #000000;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .nav.sticky .nav-links {
+    background: #ffffff;
+    margin-top: 20px;
+  }
+
+  .nav.sticky .nav-links a {
+    color: #333333;
+  }
+}

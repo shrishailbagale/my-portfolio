@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+p{
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.heading span {
+  color: #bc4f00;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  animation: slideTopToBottom 1.5s ease-in-out;
+  
+}
+
+.icon {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.heading {
+  color: #000;
+  font-size: 2.6em;
+  margin-bottom: 0;
+  margin-top: 0;  
+  padding-bottom: 0px;
+}
+
+.description{
+  color: #555;
+  font-size: 1.2em;
+  text-align: center;  
+  margin-bottom: 20px;
+}
+
+html{
+  scroll-snap-align: y mandatory;
+}
+
+section{
+  scroll-snap-align: start;
+}
+
+
+
+@media screen and (max-width: 768px){
+  .heading{
+     font-size: 2.3rem; 
+  }
+  .description{
+     font-size: 1.1rem;
+ 
+  }
+  P{
+    font-size: 1.1rem !important;
+  }
+
+
+}
+
+
+/* transform animation top to bottom */
+@keyframes slideTopToBottom {
+  0% {
+      transform: translateY(-100%);
+  }
+  100% {
+      transform: translateY(0%);
+  }
+}
+
+
+/* transform animation left to right */
+@keyframes slideLeftToRight {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+
+
+/* transform animation Right to left */
+@keyframes slideRightToLeft {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+
+
+/* transform animation Bottom to Top */
+@keyframes slideBottomToTop {
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateY(0%);
+  }
+}

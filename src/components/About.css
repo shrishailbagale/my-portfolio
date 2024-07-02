@@ -1,0 +1,115 @@
+/* About.css */
+
+.about {
+  background-color: #dadcdd;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  flex-basis: 100%;
+  /* Take full width in mobile view */
+  padding: 20px;
+  text-align: left;
+  order: 0;
+}
+
+.about-content .heading-container {
+  justify-content: left;
+  align-items: left;
+}
+
+.about p {
+  color: #111;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.about-image {
+  flex-basis: 100%;
+  /* Take full width in mobile view */
+  margin-top: 6px;
+  /* Add space between text and image in mobile view */
+  display: none;
+  /* Hide the image in the center of the screen */
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 10px 30px 10px 20px;
+  margin-top: 10px;
+  background-color: #062b43;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #dadcdd;
+  color: #333;
+  border: 1px solid #000;
+}
+
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 200px;
+  }
+}
+
+/* Responsive Styles */
+@media screen and (min-width: 768px) {
+  .about {
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+  }
+
+  .about-content {
+    flex-direction: row;
+  }
+
+  .about-image {
+    flex-basis: 50%;
+    margin-top: 0;
+    /* Remove margin-top for larger screens */
+    order: 0;
+    /* Change the order for larger screens */
+    display: contents;
+  }
+
+  .about-image img {
+    width: 25%;
+    border-radius: 6%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: mymove 5s infinite;
+  }
+
+  .about-text {
+    flex-basis: 50%;
+    order: 1;
+    /* Change the order for larger screens */
+    padding-left: 60px;
+  }
+
+}

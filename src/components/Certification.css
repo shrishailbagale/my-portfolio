@@ -1,0 +1,116 @@
+/* Google Font Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.certification {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.heading {
+  font-size: 2em;
+  color: #333;
+}
+
+.heading span {
+  color: #f18048;
+}
+
+.description {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.certification-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.certification-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Increased card width */
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.certification-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.certification-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.certification-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.certification-card p {
+  color: #666;
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+.certification-card.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media only screen and (max-width: 1024px) {
+  .certification-card {
+    width: calc(50% - 40px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .certification {
+    padding: 20px;
+  }
+
+  .certification-card {
+    width: calc(100% - 40px);
+  }
+
+  .heading {
+    font-size: 1.5em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+}
