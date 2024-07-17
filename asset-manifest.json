@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.fdab5b53.css",
-    "main.js": "/my-portfolio/static/js/main.3cab109a.js",
-    "static/js/592.0dcf3590.chunk.js": "/my-portfolio/static/js/592.0dcf3590.chunk.js",
+    "main.css": "/my-portfolio/static/css/main.780d9c08.css",
+    "main.js": "/my-portfolio/static/js/main.bace00bc.js",
+    "static/js/592.6647c214.chunk.js": "/my-portfolio/static/js/592.6647c214.chunk.js",
+    "static/media/Phonepe-Video.mp4": "/my-portfolio/static/media/Phonepe-Video.b75c0ddf0fea7ec4b603.mp4",
     "static/media/allana_college.jpg": "/my-portfolio/static/media/allana_college.46f7272a0dcd11aeeea5.jpg",
     "static/media/my-photo.png": "/my-portfolio/static/media/my-photo.dd72ed8c290717dd0d85.png",
     "static/media/DHB_Soni_college.jpg": "/my-portfolio/static/media/DHB_Soni_college.e82530bf4c7728e531dd.jpg",
@@ -16,12 +17,12 @@
     "static/media/github.png": "/my-portfolio/static/media/github.e98f85dfe9714abe4697.png",
     "static/media/skills-icon.png": "/my-portfolio/static/media/skills-icon.b288034d9812eb13c12f.png",
     "index.html": "/my-portfolio/index.html",
-    "main.fdab5b53.css.map": "/my-portfolio/static/css/main.fdab5b53.css.map",
-    "main.3cab109a.js.map": "/my-portfolio/static/js/main.3cab109a.js.map",
-    "592.0dcf3590.chunk.js.map": "/my-portfolio/static/js/592.0dcf3590.chunk.js.map"
+    "main.780d9c08.css.map": "/my-portfolio/static/css/main.780d9c08.css.map",
+    "main.bace00bc.js.map": "/my-portfolio/static/js/main.bace00bc.js.map",
+    "592.6647c214.chunk.js.map": "/my-portfolio/static/js/592.6647c214.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdab5b53.css",
-    "static/js/main.3cab109a.js"
+    "static/css/main.780d9c08.css",
+    "static/js/main.bace00bc.js"
   ]
 }
