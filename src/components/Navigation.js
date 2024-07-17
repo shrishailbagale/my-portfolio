@@ -37,12 +37,13 @@ const StickyNavigation = () => {
           <i className={menuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
+        <li><a href="/my-portfolio" onClick={toggleMenu}>Home</a></li>
           <li><a href="#about" onClick={toggleMenu}>About</a></li>
           <li><a href="#Skills" onClick={toggleMenu}>Skills</a></li>
           <li><a href="#certification" onClick={toggleMenu}>Certification</a></li>
           <li><a href="#project" onClick={toggleMenu}>Project</a></li>
           <li><a href="#education" onClick={toggleMenu}>Education</a></li>
-          <li><a href="#download" onClick={toggleMenu}>Downloads</a></li>
+          {/* <li><a href="/hero" onClick={toggleMenu}>Downloads</a></li> */}
           <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
         </ul>
       </div>

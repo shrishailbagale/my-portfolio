@@ -10,14 +10,14 @@ const Projects = () => {
       description:
         "The WhatsApp clone project aims to develop a real-time messaging application that mirrors the functionality of WhatsApp, allowing users to send and receive text messages, images, videos, and other multimedia content.",
       image: `${process.env.PUBLIC_URL}/project-images/whatsapp-Splash-Screen.jpg`,
-      link: `${process.env.PUBLIC_URL}/project-images/`,
+      link: `/whatsapp`,
     },
     {
       title: "Phonepe Application",
       description:
         "The PhonePe clone app is a digital payments solution enabling secure UPI transactions, bank account management, and loan applications. It features credit profile tracking, account aggregation, and credit card management, offering a user-friendly interface for efficient financial management.",
       image: `${process.env.PUBLIC_URL}/project-images/Phonepe-Splash-Screen.png`,
-      link: `${process.env.PUBLIC_URL}/project-images/Phonepe-Video.mp4`,
+      link: `/phonepe`,
     },
     {
       title: "Online Book Store",
