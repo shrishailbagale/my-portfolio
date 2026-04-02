@@ -70,8 +70,8 @@ const Hero = () => {
             <img src={icLinkedin} alt="LinkedIn" />
           </a>
           <a
-            className="twitter"
-            href="https://twitter.com/shrishailbagale"
+            className="instagram"
+            href="https://instagram.com/shrishail_bagale"
             target="_blank"
             rel="noopener noreferrer"
           >
