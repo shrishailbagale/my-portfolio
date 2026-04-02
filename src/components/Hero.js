@@ -15,6 +15,7 @@ const Hero = () => {
     // Initialize Typed.js
     const options = {
       strings: [
+        ".NET Developer",
         "Web Developer",
         "Frontend Developer",
         "Backend Developer",
