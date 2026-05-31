@@ -1,18 +1,13 @@
-// Hero.js
-import React from "react";
-import "./Hero.css"; // Import your styles
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Typed from "typed.js";
-import profileImage from "../images/profile-image.jpg"; // Adjust the path to your image
+import "./Hero.css";
+import profileImage from "../images/profile-image.jpg"; 
 import icGithub from "../logos/github.png";
 import icLinkedin from "../logos/linkedin.png";
 import icInstagram from "../logos/instagram.png";
-import "./Navigation.js"; // Export your navigation
-
 
 const Hero = () => {
   useEffect(() => {
-    // Initialize Typed.js
     const options = {
       strings: [
         ".NET Developer",
@@ -21,14 +16,13 @@ const Hero = () => {
         "Backend Developer",
         "Android Developer",
       ],
-      typeSpeed: 50, // Adjust typing speed as needed
-      backSpeed: 30, // Adjust backspacing speed as needed
-      loop: true, // Set to false if you don't want the loop
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true,
     };
 
     const typed = new Typed(".typing-text", options);
 
-    // Cleanup the Typed instance on component unmount
     return () => {
       typed.destroy();
     };
@@ -37,53 +31,29 @@ const Hero = () => {
   return (
     <section className="hero-container">
       <div className="hero-content">
-        <img
-          src={profileImage}
-          alt="Shrishail Bagale"
-          className="profile-image"
-        />
-        <h1 className="name animate__animated animate__bounce animate__delay-0s">
-          Shrishail <span>Bagale</span>
+        <div className="profile-img-wrapper">
+          <img src={profileImage} alt="Shrishail Bagale" className="profile-image" />
+        </div>
+        <h1 className="name">
+          Shrishail <span className="highlight">Bagale</span>
         </h1>
-        <h3>
+        <h3 className="sub-heading">
           I'm <span className="typing-text"></span>
         </h3>
 
-        {/* Add social media logos with links */}
-
         <div className="social-icons">
-          <a
-            className="github"
-            href="https://github.com/shrishailbagale"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://github.com/shrishailbagale" target="_blank" rel="noopener noreferrer" className="icon-link github">
             <img src={icGithub} alt="GitHub" />
           </a>
-          {/* Add similar blocks for other social media logos */}
-          <a
-            className="linkedin"
-            href="https://linkedin.com/in/shrishailbagale"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://linkedin.com/in/shrishailbagale" target="_blank" rel="noopener noreferrer" className="icon-link linkedin">
             <img src={icLinkedin} alt="LinkedIn" />
           </a>
-          <a
-            className="instagram"
-            href="https://instagram.com/shrishail_bagale"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://instagram.com/shrishail_bagale" target="_blank" rel="noopener noreferrer" className="icon-link instagram">
             <img src={icInstagram} alt="Instagram" />
           </a>
-          {/* Add more social media icons as needed */}
         </div>
-
-        {/* Add a call-to-action button or link if desired */}
-        {/* <a href="#your-section-id" className="cta-button">
-          Explore More
-        </a> */}
+        
+        <a href="#about" className="cta-button">Explore More</a>
       </div>
     </section>
   );
